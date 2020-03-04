@@ -2,6 +2,17 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="5f1c9bd0-f5ca-42af-94ca-76c31dd6806f" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
   <name>docker_web</name>
   <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_3" type="OAuthProvider">
+      <parameters>
+        <param name="displayName" value="Docker Registry" />
+        <param name="providerType" value="Docker" />
+        <param name="repositoryUrl" value="https://docker.io" />
+        <param name="secure:userPass" value="credentialsJSON:40dff449-3901-4684-a1e7-11c3f8c02796" />
+        <param name="userName" value="g3mcbr" />
+      </parameters>
+    </extension>
+  </project-extensions>
   <cleanup />
 </project>
 
