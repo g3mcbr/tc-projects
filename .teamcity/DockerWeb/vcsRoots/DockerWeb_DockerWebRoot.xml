@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="d7fbfbbf-d9ab-473d-aa01-c2d059510597" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>Docker_Web_root</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="TEAMCITY_SSH_KEY" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:passphrase" value="credentialsJSON:dac7d3fa-75b8-4134-a33c-47dfd422af74" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcitySshKey" value="id_rsa_bit" />
+  <param name="url" value="git@bitbucket.org:g3mcbr/docker_web.git" />
+  <param name="useAlternates" value="true" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+

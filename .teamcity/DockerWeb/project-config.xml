@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="5f1c9bd0-f5ca-42af-94ca-76c31dd6806f" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>docker_web</name>
+  <parameters />
+  <cleanup />
+</project>
+
