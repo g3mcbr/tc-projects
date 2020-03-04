@@ -9,6 +9,7 @@
         <parameters>
           <param name="command.args" value="--pull" />
           <param name="docker.command.type" value="build" />
+          <param name="docker.image.namesAndTags" value="g3mcbr/docker_web:%build.counter%" />
           <param name="docker.push.remove.image" value="true" />
           <param name="dockerfile.path" value="Dockerfile" />
           <param name="dockerfile.source" value="PATH" />
