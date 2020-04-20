@@ -27,7 +27,7 @@
       </runner>
       <runner id="RUNNER_3" name="ssh_upload_files" type="ssh-deploy-runner">
         <parameters>
-          <param name="jetbrains.buildServer.deployer.sourcePath" value="build*" />
+          <param name="jetbrains.buildServer.deployer.sourcePath" value="/tmp/buildAgent.zip" />
           <param name="jetbrains.buildServer.deployer.ssh.transport" value="jetbrains.buildServer.deployer.ssh.transport.scp" />
           <param name="jetbrains.buildServer.deployer.targetUrl" value="192.168.1.144:/home/gmackay" />
           <param name="jetbrains.buildServer.deployer.username" value="gmackay" />
