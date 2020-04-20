@@ -4,7 +4,19 @@
   <description />
   <settings>
     <parameters />
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_4" name="SCP_Upload_test" type="ssh-deploy-runner">
+        <parameters>
+          <param name="jetbrains.buildServer.deployer.sourcePath" value="/tmp/buildAgent.zip" />
+          <param name="jetbrains.buildServer.deployer.ssh.transport" value="jetbrains.buildServer.deployer.ssh.transport.scp" />
+          <param name="jetbrains.buildServer.deployer.targetUrl" value="192.168.1.144:/home/gmackay" />
+          <param name="jetbrains.buildServer.deployer.username" value="gmackay" />
+          <param name="jetbrains.buildServer.sshexec.authMethod" value="UPLOADED_KEY" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="teamcitySshKey" value="id_rsa_bit" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="TCProjects" />
     </vcs-settings>
