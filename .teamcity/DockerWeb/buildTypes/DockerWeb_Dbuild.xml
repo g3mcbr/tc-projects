@@ -25,6 +25,17 @@
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_3" name="ssh_upload_files" type="ssh-deploy-runner">
+        <parameters>
+          <param name="jetbrains.buildServer.deployer.sourcePath" value="*.txt" />
+          <param name="jetbrains.buildServer.deployer.ssh.transport" value="jetbrains.buildServer.deployer.ssh.transport.scp" />
+          <param name="jetbrains.buildServer.deployer.targetUrl" value="192.168.1.144:/home/gmackay" />
+          <param name="jetbrains.buildServer.deployer.username" value="gmackay" />
+          <param name="jetbrains.buildServer.sshexec.authMethod" value="UPLOADED_KEY" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="teamcitySshKey" value="tc_transcriber_2020-04-20" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="DockerWeb_DockerWebRoot" />
