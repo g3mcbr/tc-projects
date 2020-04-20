@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="5576b2b7-ce6e-4273-8bdb-8286702b4aa9" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>SCP_Test</name>
+  <parameters />
+  <cleanup />
+</project>
+
