@@ -8,7 +8,8 @@
       <runner id="RUNNER_4" name="SCP_Upload_test" type="ssh-deploy-runner">
         <parameters>
           <param name="jetbrains.buildServer.deployer.sourcePath"><![CDATA[/tmp/buildAgent.zip
-/tmp/test_upload_file]]></param>
+/tmp/test_upload_file
+/tmp/*.txt]]></param>
           <param name="jetbrains.buildServer.deployer.ssh.transport" value="jetbrains.buildServer.deployer.ssh.transport.scp" />
           <param name="jetbrains.buildServer.deployer.targetUrl" value="192.168.1.144:/tmp" />
           <param name="jetbrains.buildServer.deployer.username" value="tc_siltranscriber" />
