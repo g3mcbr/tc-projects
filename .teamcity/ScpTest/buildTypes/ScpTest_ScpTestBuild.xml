@@ -20,7 +20,7 @@
       </runner>
       <runner id="RUNNER_5" name="SCP_CommandLine" type="simpleRunner">
         <parameters>
-          <param name="script.content"><![CDATA[ssh-agent -s
+          <param name="script.content"><![CDATA[eval `ssh-agent -s`
 scp -v /tmp/*.txt tc_siltranscriber@192.168.1.144:/tmp]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
