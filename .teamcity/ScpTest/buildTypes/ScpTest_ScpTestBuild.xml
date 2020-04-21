@@ -15,7 +15,7 @@
           <param name="jetbrains.buildServer.deployer.username" value="testuser" />
           <param name="jetbrains.buildServer.sshexec.authMethod" value="UPLOADED_KEY" />
           <param name="teamcity.step.mode" value="default" />
-          <param name="teamcitySshKey" value="tc_siltranscriber" />
+          <param name="teamcitySshKey" value="tc_transcriber_2020-04-20" />
         </parameters>
       </runner>
     </build-runners>
