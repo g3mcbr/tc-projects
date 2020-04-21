@@ -16,14 +16,6 @@
     <vcs-settings />
     <requirements />
     <build-triggers />
-    <build-extensions>
-      <extension id="ssh-agent-build-feature" type="ssh-agent-build-feature">
-        <parameters>
-          <param name="secure:passphrase" value="credentialsJSON:e7e2c5b7-1804-44c9-ab5d-ea99945df27e" />
-          <param name="teamcitySshKey" value="tc_transcriber_2020-04-21" />
-        </parameters>
-      </extension>
-    </build-extensions>
     <cleanup />
   </settings>
 </build-type>
