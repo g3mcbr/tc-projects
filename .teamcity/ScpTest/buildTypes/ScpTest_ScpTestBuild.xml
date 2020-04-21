@@ -12,7 +12,7 @@
 /tmp/*.txt]]></param>
           <param name="jetbrains.buildServer.deployer.ssh.transport" value="jetbrains.buildServer.deployer.ssh.transport.scp" />
           <param name="jetbrains.buildServer.deployer.targetUrl" value="192.168.1.144:/tmp" />
-          <param name="jetbrains.buildServer.deployer.username" value="tc_siltranscriber" />
+          <param name="jetbrains.buildServer.deployer.username" value="bogususer" />
           <param name="jetbrains.buildServer.sshexec.authMethod" value="UPLOADED_KEY" />
           <param name="teamcity.step.mode" value="default" />
           <param name="teamcitySshKey" value="tc_siltranscriber" />
