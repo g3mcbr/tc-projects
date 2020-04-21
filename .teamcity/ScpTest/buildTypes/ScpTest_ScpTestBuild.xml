@@ -18,6 +18,13 @@
           <param name="teamcitySshKey" value="tc_transcriber_2020-04-20" />
         </parameters>
       </runner>
+      <runner id="RUNNER_5" name="SCP_CommandLine" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="scp /tmp/*.txt tc_siltranscriber@192.168.1.144:/tmp" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="TCProjects" />
