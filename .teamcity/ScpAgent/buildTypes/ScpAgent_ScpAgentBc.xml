@@ -7,7 +7,7 @@
     <build-runners>
       <runner id="RUNNER_6" name="scp_script_test" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="scp -v -o StrictHostKeyChecking=no /tmp/*txt tc_siltranscriber@192.168.1.144:upload_areas/" />
+          <param name="script.content" value="scp -v -o StrictHostKeyChecking=no /tmp/*txt tc_siltranscriber@192.168.1.144:upload_areas/siltranscriber" />
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
