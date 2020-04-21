@@ -3,6 +3,9 @@
   <name>SCP_Test_build</name>
   <description />
   <settings>
+    <disabled-settings>
+      <setting-ref ref="RUNNER_4" />
+    </disabled-settings>
     <parameters />
     <build-runners>
       <runner id="RUNNER_4" name="SCP_Upload_test" type="ssh-deploy-runner">
